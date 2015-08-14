@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="global_blue">#399ad6</color>
+    <color name="textColorPrimary">#ffffffff</color>
+    <color name="textColorPrimaryDark">#ff000000</color>
+    <color name="lock_selected">#0079ff</color>
+
+</resources>

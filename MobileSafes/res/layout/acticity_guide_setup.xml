@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- title -->
+
+    <TextView
+        style="@style/TitleBarStyle"
+        android:text="手机防盗" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dip" >
+
+        <TextView
+            style="@style/SetupTextViewStyle"
+            android:text="安全号码" />
+
+        <TextView
+            android:id="@+id/setup_tv_number"
+            style="@style/SetupTextViewStyle"
+            android:layout_alignParentRight="true"
+            android:text="1314-520" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#44000000" />
+
+    <RelativeLayout
+        android:id="@+id/setup_rl_protecting"
+        android:layout_width="fill_parent"
+        android:layout_height="48dip" >
+
+        <TextView
+            style="@style/SetupTextViewStyle"
+            android:text="防盗保护是否开启" />
+
+        <ImageView
+            android:id="@+id/setup_iv_protecting"
+            style="@style/SetupTextViewStyle"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/lock" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#44000000" />
+
+    <RelativeLayout
+        android:id="@+id/setup_rl_again"
+        android:layout_width="fill_parent"
+        android:layout_height="48dip" >
+
+        <TextView
+            style="@style/SetupTextViewStyle"
+            android:text="重新进入设置向导" />
+    </RelativeLayout>
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#44000000" />
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dip" >
+    
+    <TextView 
+      	android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip"
+        android:text="功能简介"
+        android:paddingLeft="5dip"
+        android:background="#a19fa1"
+        android:textColor="@android:color/white"/>
+     </RelativeLayout>
+     
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+    <TextView
+        style="@style/GuideTextViewStyle"
+        android:text="GPS追踪:#*location*#"
+         />
+    <TextView
+        style="@style/GuideTextViewStyle"
+        android:text="播放报警音乐:#*alarm*#"
+         />
+    <TextView
+        style="@style/GuideTextViewStyle"
+        android:text="远程数据删除:#*wipedata*#"
+         />
+    <TextView
+        style="@style/GuideTextViewStyle"
+        android:text="远程锁屏:#*locksreen*#"
+         />
+        
+        
+    </LinearLayout>
+
+</LinearLayout>

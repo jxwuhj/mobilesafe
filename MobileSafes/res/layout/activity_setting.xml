@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:defender="http://schemas.android.com/apk/res/com.it.mobilesafe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/TitleBarStyle"
+        android:ellipsize="start"
+        android:text="设置中心" />
+
+    <com.it.mobilesafe.view.SettingItemView
+        android:layout_marginTop="10dp"
+        android:id="@+id/setting_siv_update"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        defender:title = "设置自动更新"
+        defender:itbackground="first"
+    />
+     <com.it.mobilesafe.view.SettingItemView
+         android:id="@+id/setting_callsms_infest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         defender:title = "骚扰拦截设置"
+         defender:itbackground="end"
+         android:layout_marginBottom="30dp"
+       />
+      <com.it.mobilesafe.view.SettingItemView
+        android:id="@+id/setting_siv_address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        defender:title = "归属地显示设置"
+        defender:itbackground="first"
+    />
+
+
+    <com.it.mobilesafe.view.SettingItemView
+        android:id="@+id/setting_siv_style"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        defender:toggleEnable="false"
+         defender:title = "归属地风格设置"
+         defender:itbackground="end"
+       />
+
+</LinearLayout>

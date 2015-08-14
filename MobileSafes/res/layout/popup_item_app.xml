@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pop_bg"
+    android:orientation="horizontal" >
+    
+    <!-- 卸载 -->
+    <LinearLayout 
+        android:id="@+id/pp_ll_uninstall"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:orientation="vertical">
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_uninstall"
+            />
+        
+        <TextView 
+            android:layout_marginTop="2dip"
+            android:textColor="#59d2f5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="卸载"/>
+        
+    </LinearLayout>
+    
+    
+    <!-- 启动 -->
+        <LinearLayout 
+            android:id="@+id/pp_ll_open"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:orientation="vertical">
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_open"
+            />
+        
+        <TextView 
+            android:layout_marginTop="2dip"
+            android:textColor="#59d2f5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="启动"/>
+        
+    </LinearLayout>
+    
+        <!-- 分享 -->
+         <LinearLayout 
+             android:id="@+id/pp_ll_share"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:orientation="vertical">
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_share"
+            />
+        
+        <TextView 
+            android:layout_marginTop="2dip"
+            android:textColor="#59d2f5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分享"/>
+        
+    </LinearLayout>
+    
+            <LinearLayout 
+                android:id="@+id/pp_ll_info"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:orientation="vertical">
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_info"
+            />
+        
+        <TextView 
+            android:layout_marginTop="2dip"
+            android:textColor="#59d2f5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="信息"/>
+        
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

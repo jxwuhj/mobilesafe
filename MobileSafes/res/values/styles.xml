@@ -1,0 +1,139 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="TitleBarStyle">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@color/global_blue</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <!-- 引导页面标题 -->
+    <style name="GuideTitleBarStyle" parent="TitleBarStyle">
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- 引导页面的textView -->
+    <style name="GuideTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:drawableLeft">@drawable/dialog_title_default_icon</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <!-- 引导页面的btn - next 点击事件按钮 performNext -->
+
+    <style name="GuideBtnNextStyle">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/dg_btn_confirm_select</item>
+        <item name="android:text">下一步</item>
+        <item name="android:drawableRight">@drawable/next</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:onClick">performNext</item>
+    </style>
+
+    <!-- 引导页面的btn - pre  点击事件按钮 performPre -->
+    <style name="GuideBtnPreStyle">
+        <item name="android:onClick">performPre</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">上一步</item>
+        <item name="android:drawableLeft">@drawable/pre</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">@drawable/btn_ok_selector</item>
+    </style>
+
+    <!-- 引导页面的文本内容样式 setup -->
+    <style name="SetupTextViewStyle">
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="normalTextViewStyle">
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    
+    <style name="normalTextViewStyle2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- dialog的样式 -->
+    <style name="AddressDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/AddressAnimation</item>
+        <!-- 阴影的设置 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 是否透明 -->
+        <!-- <item name="android:windowIsTranslucent">true</item> -->
+        <item name="android:windowNoTitle">true</item>
+
+        <!-- 点击其他部位 隐形消失 -->
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <style name="AddressAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/input_method_enter</item>
+        <item name="android:windowExitAnimation">@anim/input_method_exit</item>
+    </style>
+
+    <style name="PopupAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/popup_method_enter</item>
+        <item name="android:windowExitAnimation">@anim/popup_method_exit</item>
+    </style>
+    
+    
+      <style name="widget_text">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/textColorPrimaryDark</item>
+    </style>
+    
+       <style name="Theme.Dialog" parent="@android:style/Theme.Dialog" />
+
+</resources>

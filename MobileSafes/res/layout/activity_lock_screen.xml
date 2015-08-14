@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        style="@style/TitleBarStyle"
+        android:text="锁屏界面"/>
+    
+    <ImageView 
+         android:id="@+id/ls_iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:layout_marginTop="10dip"
+        android:layout_gravity="center_horizontal"/>
+    
+    <TextView 
+         android:id="@+id/ls_tv_name"
+        android:singleLine="true"
+        style="@style/normalTextViewStyle2"
+        android:text="应用名称"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"/>
+    
+    <EditText 
+        android:id="@+id/ls_et_pwd"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button 
+        android:onClick="clickOk"
+        android:layout_margin="10dp"
+        android:text="确定"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:background="@drawable/btn_ok_selector"/>
+
+</LinearLayout>

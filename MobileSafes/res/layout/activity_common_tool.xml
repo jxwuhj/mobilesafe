@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:defender="http://schemas.android.com/apk/res/com.it.mobilesafe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/TitleBarStyle"
+        android:text="常用工具" />
+
+    <com.it.mobilesafe.view.SettingItemView
+        android:id="@+id/common_tv_number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        defender:title="号码归属地查询"
+        defender:toggleEnable="false" >
+    </com.it.mobilesafe.view.SettingItemView>
+
+    <com.it.mobilesafe.view.SettingItemView
+        android:id="@+id/common_tv_commonnum"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        defender:itbackground="end"
+        defender:title="常用号码查询"
+        defender:toggleEnable="false" >
+    </com.it.mobilesafe.view.SettingItemView>
+
+    <com.it.mobilesafe.view.SettingItemView
+        android:id="@+id/common_tv_smsbackp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        defender:title="短信备份"
+        defender:toggleEnable="false" >
+    </com.it.mobilesafe.view.SettingItemView>
+
+    <com.it.mobilesafe.view.SettingItemView
+        android:id="@+id/common_tv_smsrestore"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        defender:itbackground="end"
+        defender:title="短信还原"
+        defender:toggleEnable="false" >
+    </com.it.mobilesafe.view.SettingItemView>
+
+    <com.it.mobilesafe.view.SettingItemView
+        android:id="@+id/common_tv_applock"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="clickApplock"
+        defender:itbackground="first"
+        defender:title="应用程序锁管理"
+        defender:toggleEnable="false" >
+    </com.it.mobilesafe.view.SettingItemView>
+
+    <com.it.mobilesafe.view.SettingItemView
+        android:id="@+id/common_tv_watchdog1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        defender:itbackground="middle"
+        defender:title="开启程序锁看门狗1" >
+    </com.it.mobilesafe.view.SettingItemView>
+
+    <com.it.mobilesafe.view.SettingItemView
+        android:id="@+id/common_tv_watchdog2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        defender:itbackground="end"
+        defender:title="开启程序锁看门狗2" >
+    </com.it.mobilesafe.view.SettingItemView>
+
+</LinearLayout>

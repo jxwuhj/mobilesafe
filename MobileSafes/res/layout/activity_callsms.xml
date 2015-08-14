@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            style="@style/TitleBarStyle"
+            android:text="黑名单管理" />
+
+        <ImageView
+            android:id="@+id/css_iv_add"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:scaleType="center"
+            android:src="@drawable/callsms_btn_selector" />
+    </RelativeLayout>
+
+    <FrameLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        <ImageView 
+            android:id="@+id/cs_iv_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/empty"
+            android:visibility="gone"
+            />
+        
+        <ListView
+            android:cacheColorHint="@android:color/transparent"
+            android:id="@+id/cs_lv_showdata"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </ListView>
+        <LinearLayout 
+            android:id="@+id/cs_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+            
+        <ProgressBar
+            android:id="@+id/cs_pb"
+            android:indeterminateDrawable="@drawable/progress_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="拼命加载中..."
+            />
+        
+          </LinearLayout>
+       </FrameLayout>
+
+</LinearLayout>

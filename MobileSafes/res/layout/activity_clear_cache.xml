@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        style="@style/TitleBarStyle"
+        android:text="缓存清理"/>
+    
+    <FrameLayout 
+        android:background="@color/global_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+   
+    
+    <RelativeLayout
+        android:id="@+id/cc_rl_scan_container" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <!-- 扫描框的部分 -->
+        <RelativeLayout 
+            android:padding="12dp"
+            android:id="@+id/cc__rl_scan"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/scan_bg">
+            
+            <!-- 扫描的图标 -->
+            <ImageView 
+                android:id="@+id/cc_iv_scan_icon"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher"/>
+            
+            
+            <!-- 扫描的线 -->
+            <ImageView 
+                android:id="@+id/cc_iv_scan_line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/scan_line"/>
+            
+        </RelativeLayout>
+        
+        <LinearLayout 
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/cc__rl_scan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <!-- 进度条 -->
+            <ProgressBar 
+                android:id="@+id/cc_scan_progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:progressDrawable="@drawable/progress_horizontal"
+                style="?android:attr/progressBarStyleHorizontal"/>
+            
+            <TextView
+                android:singleLine="true"
+                android:id="@+id/cc_tv_scan_name"
+                android:layout_marginTop="5dp" 
+                style="@style/normalTextViewStyle2"
+                android:textColor="@android:color/white"
+                android:text="应用名称"/>
+             <TextView
+                android:singleLine="true"
+                android:id="@+id/cc_tv_scan_cacheSize" 
+                android:layout_marginTop="5dp" 
+                style="@style/normalTextViewStyle2"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:text="缓存数据大小"/>
+            
+        </LinearLayout>
+        
+        
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/cc_rl_result_container" 
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:background="@color/global_blue">
+        
+        
+        
+        <Button 
+            android:id="@+id/cc__btn_scan"
+            android:onClick="quickScan"
+            android:padding="5dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="快速扫描"
+            android:background="@drawable/btn_ok_selector"/>
+
+        <TextView
+            android:id="@+id/cc__tv_scan_result"
+            style="@style/normalTextViewStyle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/cc__btn_scan"
+            android:padding="2dp"
+            android:singleLine="false"
+            android:text="addfghjkldgargRFefeGhRGGSTHhrsgst"
+            android:textColor="@android:color/white" />
+        
+    </RelativeLayout>
+    
+     </FrameLayout>
+    
+    <ListView 
+        android:layout_weight="1"
+        android:id="@+id/cc_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+    
+    <Button 
+        android:id="@+id/cc_btn_clearall"
+        android:layout_weight="0"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="一键清理"
+        android:background="@drawable/btn_ok_selector"/>
+    
+
+</LinearLayout>

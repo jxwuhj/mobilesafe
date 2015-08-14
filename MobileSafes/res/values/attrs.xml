@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 命名规则: 为一个view开头命名 -->
+    <declare-styleable name="SettingItemView">
+        
+        <!-- 显示不同的title的内容 -->
+        <attr name="title"  format="string"/>
+        
+         <attr name="itbackground">
+        <enum name="first" value="0" />
+        <enum name="middle" value="1" />
+        <enum name="end" value="2" />
+    </attr>
+        
+         <!-- 开关是否可见 -->
+         <attr  name="toggleEnable" format="boolean" />
+         
+    </declare-styleable>
+</resources>

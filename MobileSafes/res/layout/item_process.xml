@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#314151"
+    android:layout_height="wrap_content"
+    android:padding="4dp" >
+
+    <!-- 这是一个item 注意layout_height的值 -->
+
+    <ImageView
+        android:id="@+id/item_process_iv_icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/item_process_iv_icon"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/item_process_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="应用名称"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/item_process_tv_memory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="占用内存的大小"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <CheckBox
+        android:clickable="false"
+        android:focusable="false"
+        android:id="@+id/item_process_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp" />
+
+</RelativeLayout>

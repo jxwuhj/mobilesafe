@@ -1,0 +1,941 @@
+android.content.pm.IPackageDataObserver
+android.content.pm.IPackageDataObserver: void onRemoveCompleted(java.lang.String,boolean)
+android.content.pm.IPackageStatsObserver
+android.content.pm.IPackageStatsObserver: void onGetStatsCompleted(android.content.pm.PackageStats,boolean)
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+com.android.internal.telephony.ITelephony
+com.android.internal.telephony.ITelephony: void dial(java.lang.String)
+com.android.internal.telephony.ITelephony: void call(java.lang.String)
+com.android.internal.telephony.ITelephony: boolean showCallScreen()
+com.android.internal.telephony.ITelephony: boolean showCallScreenWithDialpad(boolean)
+com.android.internal.telephony.ITelephony: boolean endCall()
+com.android.internal.telephony.ITelephony: void answerRingingCall()
+com.android.internal.telephony.ITelephony: void silenceRinger()
+com.android.internal.telephony.ITelephony: boolean isOffhook()
+com.android.internal.telephony.ITelephony: boolean isRinging()
+com.android.internal.telephony.ITelephony: boolean isIdle()
+com.android.internal.telephony.ITelephony: boolean isRadioOn()
+com.android.internal.telephony.ITelephony: boolean isSimPinEnabled()
+com.android.internal.telephony.ITelephony: void cancelMissedCallsNotification()
+com.android.internal.telephony.ITelephony: boolean supplyPin(java.lang.String)
+com.android.internal.telephony.ITelephony: boolean handlePinMmi(java.lang.String)
+com.android.internal.telephony.ITelephony: void toggleRadioOnOff()
+com.android.internal.telephony.ITelephony: boolean setRadio(boolean)
+com.android.internal.telephony.ITelephony: void updateServiceLocation()
+com.android.internal.telephony.ITelephony: void enableLocationUpdates()
+com.android.internal.telephony.ITelephony: void disableLocationUpdates()
+com.android.internal.telephony.ITelephony: int enableApnType(java.lang.String)
+com.android.internal.telephony.ITelephony: int disableApnType(java.lang.String)
+com.android.internal.telephony.ITelephony: boolean enableDataConnectivity()
+com.android.internal.telephony.ITelephony: boolean disableDataConnectivity()
+com.android.internal.telephony.ITelephony: boolean isDataConnectivityPossible()
+com.android.internal.telephony.ITelephony: android.os.Bundle getCellLocation()
+com.android.internal.telephony.ITelephony: java.util.List getNeighboringCellInfo()
+com.android.internal.telephony.ITelephony: int getCallState()
+com.android.internal.telephony.ITelephony: int getDataActivity()
+com.android.internal.telephony.ITelephony: int getDataState()
+com.android.internal.telephony.ITelephony: int getActivePhoneType()
+com.android.internal.telephony.ITelephony: int getCdmaEriIconIndex()
+com.android.internal.telephony.ITelephony: int getCdmaEriIconMode()
+com.android.internal.telephony.ITelephony: java.lang.String getCdmaEriText()
+com.android.internal.telephony.ITelephony: boolean getCdmaNeedsProvisioning()
+com.android.internal.telephony.ITelephony: int getVoiceMessageCount()
+com.android.internal.telephony.ITelephony: int getNetworkType()
+com.android.internal.telephony.ITelephony: boolean hasIccCard()
+com.github.lzyzsd.circleprogress.ArcProgress
+com.github.lzyzsd.circleprogress.ArcProgress: ArcProgress(android.content.Context)
+com.github.lzyzsd.circleprogress.ArcProgress: ArcProgress(android.content.Context,android.util.AttributeSet)
+com.github.lzyzsd.circleprogress.ArcProgress: ArcProgress(android.content.Context,android.util.AttributeSet,int)
+com.github.lzyzsd.circleprogress.ArcProgress: float getStrokeWidth()
+com.github.lzyzsd.circleprogress.ArcProgress: void setStrokeWidth(float)
+com.github.lzyzsd.circleprogress.ArcProgress: float getSuffixTextSize()
+com.github.lzyzsd.circleprogress.ArcProgress: void setSuffixTextSize(float)
+com.github.lzyzsd.circleprogress.ArcProgress: java.lang.String getBottomText()
+com.github.lzyzsd.circleprogress.ArcProgress: void setBottomText(java.lang.String)
+com.github.lzyzsd.circleprogress.ArcProgress: int getProgress()
+com.github.lzyzsd.circleprogress.ArcProgress: void setProgress(int)
+com.github.lzyzsd.circleprogress.ArcProgress: int getMax()
+com.github.lzyzsd.circleprogress.ArcProgress: void setMax(int)
+com.github.lzyzsd.circleprogress.ArcProgress: float getBottomTextSize()
+com.github.lzyzsd.circleprogress.ArcProgress: void setBottomTextSize(float)
+com.github.lzyzsd.circleprogress.ArcProgress: float getTextSize()
+com.github.lzyzsd.circleprogress.ArcProgress: void setTextSize(float)
+com.github.lzyzsd.circleprogress.ArcProgress: int getTextColor()
+com.github.lzyzsd.circleprogress.ArcProgress: void setTextColor(int)
+com.github.lzyzsd.circleprogress.ArcProgress: int getFinishedStrokeColor()
+com.github.lzyzsd.circleprogress.ArcProgress: void setFinishedStrokeColor(int)
+com.github.lzyzsd.circleprogress.ArcProgress: int getUnfinishedStrokeColor()
+com.github.lzyzsd.circleprogress.ArcProgress: void setUnfinishedStrokeColor(int)
+com.github.lzyzsd.circleprogress.ArcProgress: float getArcAngle()
+com.github.lzyzsd.circleprogress.ArcProgress: void setArcAngle(float)
+com.github.lzyzsd.circleprogress.ArcProgress: java.lang.String getSuffixText()
+com.github.lzyzsd.circleprogress.ArcProgress: void setSuffixText(java.lang.String)
+com.github.lzyzsd.circleprogress.ArcProgress: float getSuffixTextPadding()
+com.github.lzyzsd.circleprogress.ArcProgress: void setSuffixTextPadding(float)
+com.github.lzyzsd.circleprogress.ArcProgress: int getSuggestedMinimumHeight()
+com.github.lzyzsd.circleprogress.ArcProgress: int getSuggestedMinimumWidth()
+com.github.lzyzsd.circleprogress.CircleProgress: int getProgress()
+com.github.lzyzsd.circleprogress.CircleProgress: void setProgress(int)
+com.github.lzyzsd.circleprogress.CircleProgress: int getMax()
+com.github.lzyzsd.circleprogress.CircleProgress: void setMax(int)
+com.github.lzyzsd.circleprogress.CircleProgress: float getTextSize()
+com.github.lzyzsd.circleprogress.CircleProgress: void setTextSize(float)
+com.github.lzyzsd.circleprogress.CircleProgress: int getTextColor()
+com.github.lzyzsd.circleprogress.CircleProgress: void setTextColor(int)
+com.github.lzyzsd.circleprogress.CircleProgress: int getFinishedColor()
+com.github.lzyzsd.circleprogress.CircleProgress: void setFinishedColor(int)
+com.github.lzyzsd.circleprogress.CircleProgress: int getUnfinishedColor()
+com.github.lzyzsd.circleprogress.CircleProgress: void setUnfinishedColor(int)
+com.github.lzyzsd.circleprogress.CircleProgress: java.lang.String getPrefixText()
+com.github.lzyzsd.circleprogress.CircleProgress: void setPrefixText(java.lang.String)
+com.github.lzyzsd.circleprogress.CircleProgress: java.lang.String getSuffixText()
+com.github.lzyzsd.circleprogress.CircleProgress: void setSuffixText(java.lang.String)
+com.github.lzyzsd.circleprogress.CircleProgress: java.lang.String getDrawText()
+com.github.lzyzsd.circleprogress.CircleProgress: int getSuggestedMinimumHeight()
+com.github.lzyzsd.circleprogress.CircleProgress: int getSuggestedMinimumWidth()
+com.github.lzyzsd.circleprogress.CircleProgress: float getProgressPercentage()
+com.github.lzyzsd.circleprogress.DonutProgress: float getFinishedStrokeWidth()
+com.github.lzyzsd.circleprogress.DonutProgress: void setFinishedStrokeWidth(float)
+com.github.lzyzsd.circleprogress.DonutProgress: float getUnfinishedStrokeWidth()
+com.github.lzyzsd.circleprogress.DonutProgress: void setUnfinishedStrokeWidth(float)
+com.github.lzyzsd.circleprogress.DonutProgress: float getProgressAngle()
+com.github.lzyzsd.circleprogress.DonutProgress: int getProgress()
+com.github.lzyzsd.circleprogress.DonutProgress: void setProgress(int)
+com.github.lzyzsd.circleprogress.DonutProgress: int getMax()
+com.github.lzyzsd.circleprogress.DonutProgress: void setMax(int)
+com.github.lzyzsd.circleprogress.DonutProgress: float getTextSize()
+com.github.lzyzsd.circleprogress.DonutProgress: void setTextSize(float)
+com.github.lzyzsd.circleprogress.DonutProgress: int getTextColor()
+com.github.lzyzsd.circleprogress.DonutProgress: void setTextColor(int)
+com.github.lzyzsd.circleprogress.DonutProgress: int getFinishedStrokeColor()
+com.github.lzyzsd.circleprogress.DonutProgress: void setFinishedStrokeColor(int)
+com.github.lzyzsd.circleprogress.DonutProgress: int getUnfinishedStrokeColor()
+com.github.lzyzsd.circleprogress.DonutProgress: void setUnfinishedStrokeColor(int)
+com.github.lzyzsd.circleprogress.DonutProgress: java.lang.String getText()
+com.github.lzyzsd.circleprogress.DonutProgress: void setText(java.lang.String)
+com.github.lzyzsd.circleprogress.DonutProgress: java.lang.String getSuffixText()
+com.github.lzyzsd.circleprogress.DonutProgress: void setSuffixText(java.lang.String)
+com.github.lzyzsd.circleprogress.DonutProgress: java.lang.String getPrefixText()
+com.github.lzyzsd.circleprogress.DonutProgress: void setPrefixText(java.lang.String)
+com.github.lzyzsd.circleprogress.DonutProgress: int getInnerBackgroundColor()
+com.github.lzyzsd.circleprogress.DonutProgress: void setInnerBackgroundColor(int)
+com.github.lzyzsd.circleprogress.DonutProgress: java.lang.String getInnerBottomText()
+com.github.lzyzsd.circleprogress.DonutProgress: void setInnerBottomText(java.lang.String)
+com.github.lzyzsd.circleprogress.DonutProgress: float getInnerBottomTextSize()
+com.github.lzyzsd.circleprogress.DonutProgress: void setInnerBottomTextSize(float)
+com.github.lzyzsd.circleprogress.DonutProgress: int getInnerBottomTextColor()
+com.github.lzyzsd.circleprogress.DonutProgress: void setInnerBottomTextColor(int)
+com.github.lzyzsd.circleprogress.DonutProgress: int getStartingDegree()
+com.github.lzyzsd.circleprogress.DonutProgress: void setStartingDegree(int)
+com.github.lzyzsd.circleprogress.R$attr: int donut_circle_starting_degree
+com.github.lzyzsd.circleprogress.R$attr: int arc_text_color
+com.github.lzyzsd.circleprogress.R$attr: int donut_inner_bottom_text_size
+com.github.lzyzsd.circleprogress.R$attr: int donut_suffix_text
+com.github.lzyzsd.circleprogress.R$attr: int arc_stroke_width
+com.github.lzyzsd.circleprogress.R$attr: int circle_text_size
+com.github.lzyzsd.circleprogress.R$attr: int donut_text_size
+com.github.lzyzsd.circleprogress.R$attr: int donut_text_color
+com.github.lzyzsd.circleprogress.R$attr: int donut_text
+com.github.lzyzsd.circleprogress.R$attr: int arc_suffix_text_padding
+com.github.lzyzsd.circleprogress.R$attr: int donut_finished_color
+com.github.lzyzsd.circleprogress.R$attr: int donut_progress
+com.github.lzyzsd.circleprogress.R$attr: int arc_suffix_text_size
+com.github.lzyzsd.circleprogress.R$attr: int circle_max
+com.github.lzyzsd.circleprogress.R$attr: int donut_unfinished_color
+com.github.lzyzsd.circleprogress.R$attr: int arc_angle
+com.github.lzyzsd.circleprogress.R$attr: int arc_text_size
+com.github.lzyzsd.circleprogress.R$attr: int donut_inner_bottom_text_color
+com.github.lzyzsd.circleprogress.R$attr: int arc_progress
+com.github.lzyzsd.circleprogress.R$attr: int arc_bottom_text
+com.github.lzyzsd.circleprogress.R$attr: int circle_text_color
+com.github.lzyzsd.circleprogress.R$attr: int circleProgressStyle
+com.github.lzyzsd.circleprogress.R$attr: int donut_unfinished_stroke_width
+com.github.lzyzsd.circleprogress.R$attr: int arcProgressStyle
+com.github.lzyzsd.circleprogress.R$attr: int arc_suffix_text
+com.github.lzyzsd.circleprogress.R$attr: int circle_prefix_text
+com.github.lzyzsd.circleprogress.R$attr: int arc_unfinished_color
+com.github.lzyzsd.circleprogress.R$attr: int donut_background_color
+com.github.lzyzsd.circleprogress.R$attr: int arc_bottom_text_size
+com.github.lzyzsd.circleprogress.R$attr: int donutProgressStyle
+com.github.lzyzsd.circleprogress.R$attr: int donut_finished_stroke_width
+com.github.lzyzsd.circleprogress.R$attr: int arc_max
+com.github.lzyzsd.circleprogress.R$attr: int circle_unfinished_color
+com.github.lzyzsd.circleprogress.R$attr: int donut_max
+com.github.lzyzsd.circleprogress.R$attr: int circle_finished_color
+com.github.lzyzsd.circleprogress.R$attr: int circle_suffix_text
+com.github.lzyzsd.circleprogress.R$attr: int donut_prefix_text
+com.github.lzyzsd.circleprogress.R$attr: int donut_inner_bottom_text
+com.github.lzyzsd.circleprogress.R$attr: int arc_finished_color
+com.github.lzyzsd.circleprogress.R$attr: int circle_progress
+com.github.lzyzsd.circleprogress.R$styleable: int CircleProgress_circle_unfinished_color
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_suffix_text_size
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_inner_bottom_text_size
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_unfinished_color
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_bottom_text_size
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_suffix_text
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_unfinished_stroke_width
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_finished_color
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_background_color
+com.github.lzyzsd.circleprogress.R$styleable: int CircleProgress_circle_progress
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_stroke_width
+com.github.lzyzsd.circleprogress.R$styleable: int[] DonutProgress
+com.github.lzyzsd.circleprogress.R$styleable: int CircleProgress_circle_prefix_text
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_text_size
+com.github.lzyzsd.circleprogress.R$styleable: int CircleProgress_circle_suffix_text
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_angle
+com.github.lzyzsd.circleprogress.R$styleable: int CircleProgress_circle_max
+com.github.lzyzsd.circleprogress.R$styleable: int CircleProgress_circle_finished_color
+com.github.lzyzsd.circleprogress.R$styleable: int CircleProgress_circle_text_size
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_unfinished_color
+com.github.lzyzsd.circleprogress.R$styleable: int[] CircleProgress
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_suffix_text_padding
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_text_size
+com.github.lzyzsd.circleprogress.R$styleable: int Themes_donutProgressStyle
+com.github.lzyzsd.circleprogress.R$styleable: int CircleProgress_circle_text_color
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_finished_stroke_width
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_suffix_text
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_progress
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_text_color
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_progress
+com.github.lzyzsd.circleprogress.R$styleable: int Themes_arcProgressStyle
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_text_color
+com.github.lzyzsd.circleprogress.R$styleable: int[] Themes
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_prefix_text
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_finished_color
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_circle_starting_degree
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_inner_bottom_text_color
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_bottom_text
+com.github.lzyzsd.circleprogress.R$styleable: int[] ArcProgress
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_inner_bottom_text
+com.github.lzyzsd.circleprogress.R$styleable: int Themes_circleProgressStyle
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_text
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_max
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_max
+com.it.mobilesafe.R$anim: int cycle_7
+com.it.mobilesafe.R$anim: int input_method_enter
+com.it.mobilesafe.R$anim: int input_method_exit
+com.it.mobilesafe.R$anim: int next_enter
+com.it.mobilesafe.R$anim: int next_exit
+com.it.mobilesafe.R$anim: int popup_method_enter
+com.it.mobilesafe.R$anim: int popup_method_exit
+com.it.mobilesafe.R$anim: int pre_enter
+com.it.mobilesafe.R$anim: int pre_exit
+com.it.mobilesafe.R$anim: int shake
+com.it.mobilesafe.R$attr: int arcProgressStyle
+com.it.mobilesafe.R$attr: int arc_angle
+com.it.mobilesafe.R$attr: int arc_bottom_text
+com.it.mobilesafe.R$attr: int arc_bottom_text_size
+com.it.mobilesafe.R$attr: int arc_finished_color
+com.it.mobilesafe.R$attr: int arc_max
+com.it.mobilesafe.R$attr: int arc_progress
+com.it.mobilesafe.R$attr: int arc_stroke_width
+com.it.mobilesafe.R$attr: int arc_suffix_text
+com.it.mobilesafe.R$attr: int arc_suffix_text_padding
+com.it.mobilesafe.R$attr: int arc_suffix_text_size
+com.it.mobilesafe.R$attr: int arc_text_color
+com.it.mobilesafe.R$attr: int arc_text_size
+com.it.mobilesafe.R$attr: int arc_unfinished_color
+com.it.mobilesafe.R$attr: int circleProgressStyle
+com.it.mobilesafe.R$attr: int circle_finished_color
+com.it.mobilesafe.R$attr: int circle_max
+com.it.mobilesafe.R$attr: int circle_prefix_text
+com.it.mobilesafe.R$attr: int circle_progress
+com.it.mobilesafe.R$attr: int circle_suffix_text
+com.it.mobilesafe.R$attr: int circle_text_color
+com.it.mobilesafe.R$attr: int circle_text_size
+com.it.mobilesafe.R$attr: int circle_unfinished_color
+com.it.mobilesafe.R$attr: int donutProgressStyle
+com.it.mobilesafe.R$attr: int donut_background_color
+com.it.mobilesafe.R$attr: int donut_circle_starting_degree
+com.it.mobilesafe.R$attr: int donut_finished_color
+com.it.mobilesafe.R$attr: int donut_finished_stroke_width
+com.it.mobilesafe.R$attr: int donut_inner_bottom_text
+com.it.mobilesafe.R$attr: int donut_inner_bottom_text_color
+com.it.mobilesafe.R$attr: int donut_inner_bottom_text_size
+com.it.mobilesafe.R$attr: int donut_max
+com.it.mobilesafe.R$attr: int donut_prefix_text
+com.it.mobilesafe.R$attr: int donut_progress
+com.it.mobilesafe.R$attr: int donut_suffix_text
+com.it.mobilesafe.R$attr: int donut_text
+com.it.mobilesafe.R$attr: int donut_text_color
+com.it.mobilesafe.R$attr: int donut_text_size
+com.it.mobilesafe.R$attr: int donut_unfinished_color
+com.it.mobilesafe.R$attr: int donut_unfinished_stroke_width
+com.it.mobilesafe.R$attr: int hasStickyHeaders
+com.it.mobilesafe.R$attr: int isDrawingListUnderStickyHeader
+com.it.mobilesafe.R$attr: int itbackground
+com.it.mobilesafe.R$attr: int stickyListHeadersListViewStyle
+com.it.mobilesafe.R$attr: int title
+com.it.mobilesafe.R$attr: int toggleEnable
+com.it.mobilesafe.R$color: int function_greenbutton_textcolor_selector
+com.it.mobilesafe.R$color: int global_blue
+com.it.mobilesafe.R$color: int lock_selected
+com.it.mobilesafe.R$color: int segement_textcolor_selector
+com.it.mobilesafe.R$color: int textColorPrimary
+com.it.mobilesafe.R$color: int textColorPrimaryDark
+com.it.mobilesafe.R$dimen: int activity_horizontal_margin
+com.it.mobilesafe.R$dimen: int activity_vertical_margin
+com.it.mobilesafe.R$drawable: int address_toast_bg
+com.it.mobilesafe.R$drawable: int address_toast_bg_blue
+com.it.mobilesafe.R$drawable: int address_toast_bg_gray
+com.it.mobilesafe.R$drawable: int address_toast_bg_green
+com.it.mobilesafe.R$drawable: int address_toast_bg_orange
+com.it.mobilesafe.R$drawable: int admin_activated
+com.it.mobilesafe.R$drawable: int admin_inactivated
+com.it.mobilesafe.R$drawable: int antispam_report_button
+com.it.mobilesafe.R$drawable: int antispam_report_button_press
+com.it.mobilesafe.R$drawable: int blue_bkg
+com.it.mobilesafe.R$drawable: int btn_cancel_selector
+com.it.mobilesafe.R$drawable: int btn_lock_selector
+com.it.mobilesafe.R$drawable: int btn_ok_selector
+com.it.mobilesafe.R$drawable: int btn_unlock_selector
+com.it.mobilesafe.R$drawable: int callsms_btn_selector
+com.it.mobilesafe.R$drawable: int callsms_img_delete_selector
+com.it.mobilesafe.R$drawable: int clean_normal
+com.it.mobilesafe.R$drawable: int clean_pressed
+com.it.mobilesafe.R$drawable: int clean_process_selector
+com.it.mobilesafe.R$drawable: int cygj
+com.it.mobilesafe.R$drawable: int dg_btn_confirm_normal
+com.it.mobilesafe.R$drawable: int dg_btn_confirm_select
+com.it.mobilesafe.R$drawable: int dg_button_cancel_normal
+com.it.mobilesafe.R$drawable: int dg_button_cancel_select
+com.it.mobilesafe.R$drawable: int dialog_title_background
+com.it.mobilesafe.R$drawable: int dialog_title_default_icon
+com.it.mobilesafe.R$drawable: int drawer_arrow_down
+com.it.mobilesafe.R$drawable: int drawer_arrow_up
+com.it.mobilesafe.R$drawable: int drawer_bg
+com.it.mobilesafe.R$drawable: int empty
+com.it.mobilesafe.R$drawable: int et_input_focus
+com.it.mobilesafe.R$drawable: int et_input_normal
+com.it.mobilesafe.R$drawable: int et_input_selector
+com.it.mobilesafe.R$drawable: int first_normal
+com.it.mobilesafe.R$drawable: int first_pressed
+com.it.mobilesafe.R$drawable: int function_greenbutton_normal
+com.it.mobilesafe.R$drawable: int function_greenbutton_pressed
+com.it.mobilesafe.R$drawable: int function_greenbutton_selector
+com.it.mobilesafe.R$drawable: int hcql
+com.it.mobilesafe.R$drawable: int heima
+com.it.mobilesafe.R$drawable: int home_item_selector
+com.it.mobilesafe.R$drawable: int ic_contact
+com.it.mobilesafe.R$drawable: int ic_delete_normal
+com.it.mobilesafe.R$drawable: int ic_delete_pressed
+com.it.mobilesafe.R$drawable: int ic_info
+com.it.mobilesafe.R$drawable: int ic_launcher
+com.it.mobilesafe.R$drawable: int ic_menu_add_normal
+com.it.mobilesafe.R$drawable: int ic_menu_add_pressed
+com.it.mobilesafe.R$drawable: int ic_open
+com.it.mobilesafe.R$drawable: int ic_selected
+com.it.mobilesafe.R$drawable: int ic_share
+com.it.mobilesafe.R$drawable: int ic_uninstall
+com.it.mobilesafe.R$drawable: int jcgl
+com.it.mobilesafe.R$drawable: int last_normal
+com.it.mobilesafe.R$drawable: int last_pressed
+com.it.mobilesafe.R$drawable: int list_button_clean_default
+com.it.mobilesafe.R$drawable: int list_button_clean_pressed
+com.it.mobilesafe.R$drawable: int list_button_lock_default
+com.it.mobilesafe.R$drawable: int list_button_lock_pressed
+com.it.mobilesafe.R$drawable: int list_button_unlock_default
+com.it.mobilesafe.R$drawable: int list_button_unlock_pressed
+com.it.mobilesafe.R$drawable: int lltj
+com.it.mobilesafe.R$drawable: int loading
+com.it.mobilesafe.R$drawable: int location
+com.it.mobilesafe.R$drawable: int lock
+com.it.mobilesafe.R$drawable: int middle_normal
+com.it.mobilesafe.R$drawable: int middle_pressed
+com.it.mobilesafe.R$drawable: int next
+com.it.mobilesafe.R$drawable: int off
+com.it.mobilesafe.R$drawable: int on
+com.it.mobilesafe.R$drawable: int pop_bg
+com.it.mobilesafe.R$drawable: int pop_bg_2
+com.it.mobilesafe.R$drawable: int pre
+com.it.mobilesafe.R$drawable: int progress_horizontal
+com.it.mobilesafe.R$drawable: int progress_loading
+com.it.mobilesafe.R$drawable: int rjgj
+com.it.mobilesafe.R$drawable: int scan_bg
+com.it.mobilesafe.R$drawable: int scan_line
+com.it.mobilesafe.R$drawable: int segement_lock_normal
+com.it.mobilesafe.R$drawable: int segement_lock_selected
+com.it.mobilesafe.R$drawable: int segement_lock_selector
+com.it.mobilesafe.R$drawable: int segement_unlock_normal
+com.it.mobilesafe.R$drawable: int segement_unlock_selected
+com.it.mobilesafe.R$drawable: int segement_unlock_selector
+com.it.mobilesafe.R$drawable: int setting
+com.it.mobilesafe.R$drawable: int setting_first_selector
+com.it.mobilesafe.R$drawable: int setting_last_selector
+com.it.mobilesafe.R$drawable: int setting_middle_selector
+com.it.mobilesafe.R$drawable: int setting_normal
+com.it.mobilesafe.R$drawable: int setting_pressed
+com.it.mobilesafe.R$drawable: int setting_selector
+com.it.mobilesafe.R$drawable: int sjfd
+com.it.mobilesafe.R$drawable: int sjsd
+com.it.mobilesafe.R$drawable: int splash
+com.it.mobilesafe.R$drawable: int srlj
+com.it.mobilesafe.R$drawable: int step_1
+com.it.mobilesafe.R$drawable: int step_2
+com.it.mobilesafe.R$drawable: int step_3
+com.it.mobilesafe.R$drawable: int step_4
+com.it.mobilesafe.R$drawable: int step_5
+com.it.mobilesafe.R$drawable: int szzx
+com.it.mobilesafe.R$drawable: int unlock
+com.it.mobilesafe.R$drawable: int widget_bg_portrait
+com.it.mobilesafe.R$drawable: int widget_bg_portrait_child
+com.it.mobilesafe.R$drawable: int widget_bg_portrait_child_divider
+com.it.mobilesafe.R$id: int aa_animator_container
+com.it.mobilesafe.R$id: int aa_btn_scan
+com.it.mobilesafe.R$id: int aa_iv_left
+com.it.mobilesafe.R$id: int aa_iv_right
+com.it.mobilesafe.R$id: int aa_listview
+com.it.mobilesafe.R$id: int aa_ll_result_container
+com.it.mobilesafe.R$id: int aa_rl_progress_container
+com.it.mobilesafe.R$id: int aa_tv_packageName
+com.it.mobilesafe.R$id: int aa_tv_result
+com.it.mobilesafe.R$id: int action_settings
+com.it.mobilesafe.R$id: int ad_lv
+com.it.mobilesafe.R$id: int address_iv_bg
+com.it.mobilesafe.R$id: int address_iv_choise
+com.it.mobilesafe.R$id: int address_tv_title
+com.it.mobilesafe.R$id: int al_lv_lock
+com.it.mobilesafe.R$id: int al_lv_unlock
+com.it.mobilesafe.R$id: int al_scv
+com.it.mobilesafe.R$id: int al_tv_tip
+com.it.mobilesafe.R$id: int am_header
+com.it.mobilesafe.R$id: int am_listview
+com.it.mobilesafe.R$id: int am_rom
+com.it.mobilesafe.R$id: int am_sdcard
+com.it.mobilesafe.R$id: int arc_progress
+com.it.mobilesafe.R$id: int at_ev_address
+com.it.mobilesafe.R$id: int at_listview
+com.it.mobilesafe.R$id: int bl_all
+com.it.mobilesafe.R$id: int bl_btn_cancel
+com.it.mobilesafe.R$id: int bl_btn_save
+com.it.mobilesafe.R$id: int bl_call
+com.it.mobilesafe.R$id: int bl_et_num
+com.it.mobilesafe.R$id: int bl_rg
+com.it.mobilesafe.R$id: int bl_sms
+com.it.mobilesafe.R$id: int bl_tv_title
+com.it.mobilesafe.R$id: int btn_clear
+com.it.mobilesafe.R$id: int cc__btn_scan
+com.it.mobilesafe.R$id: int cc__rl_scan
+com.it.mobilesafe.R$id: int cc__tv_scan_result
+com.it.mobilesafe.R$id: int cc_btn_clearall
+com.it.mobilesafe.R$id: int cc_iv_scan_icon
+com.it.mobilesafe.R$id: int cc_iv_scan_line
+com.it.mobilesafe.R$id: int cc_listview
+com.it.mobilesafe.R$id: int cc_rl_result_container
+com.it.mobilesafe.R$id: int cc_rl_scan_container
+com.it.mobilesafe.R$id: int cc_scan_progress
+com.it.mobilesafe.R$id: int cc_tv_scan_cacheSize
+com.it.mobilesafe.R$id: int cc_tv_scan_name
+com.it.mobilesafe.R$id: int cn_listveiw
+com.it.mobilesafe.R$id: int common_tv_applock
+com.it.mobilesafe.R$id: int common_tv_commonnum
+com.it.mobilesafe.R$id: int common_tv_number
+com.it.mobilesafe.R$id: int common_tv_smsbackp
+com.it.mobilesafe.R$id: int common_tv_smsrestore
+com.it.mobilesafe.R$id: int common_tv_watchdog1
+com.it.mobilesafe.R$id: int common_tv_watchdog2
+com.it.mobilesafe.R$id: int contacts_lv
+com.it.mobilesafe.R$id: int contacts_pb
+com.it.mobilesafe.R$id: int cs_iv_empty
+com.it.mobilesafe.R$id: int cs_ll
+com.it.mobilesafe.R$id: int cs_lv_showdata
+com.it.mobilesafe.R$id: int cs_pb
+com.it.mobilesafe.R$id: int css_iv_add
+com.it.mobilesafe.R$id: int dialog_btn_cancel
+com.it.mobilesafe.R$id: int dialog_btn_ok
+com.it.mobilesafe.R$id: int end
+com.it.mobilesafe.R$id: int enter_btn_pwd
+com.it.mobilesafe.R$id: int first
+com.it.mobilesafe.R$id: int home_gv
+com.it.mobilesafe.R$id: int init_btn_confirm
+com.it.mobilesafe.R$id: int init_btn_enter
+com.it.mobilesafe.R$id: int init_iv
+com.it.mobilesafe.R$id: int item_al_iv_icon
+com.it.mobilesafe.R$id: int item_al_iv_lock
+com.it.mobilesafe.R$id: int item_appinfo_iv_icon
+com.it.mobilesafe.R$id: int item_appinfo_tv_installpath
+com.it.mobilesafe.R$id: int item_appinfo_tv_name
+com.it.mobilesafe.R$id: int item_appinfo_tv_size
+com.it.mobilesafe.R$id: int item_cache_iv_clear
+com.it.mobilesafe.R$id: int item_cache_iv_icon
+com.it.mobilesafe.R$id: int item_cache_tv_cacheSize
+com.it.mobilesafe.R$id: int item_cache_tv_name
+com.it.mobilesafe.R$id: int item_contact_iv_icon
+com.it.mobilesafe.R$id: int item_contact_tv_name
+com.it.mobilesafe.R$id: int item_contact_tv_number
+com.it.mobilesafe.R$id: int item_cs_ivDelete
+com.it.mobilesafe.R$id: int item_cs_number
+com.it.mobilesafe.R$id: int item_cs_type
+com.it.mobilesafe.R$id: int item_home_iv_icon
+com.it.mobilesafe.R$id: int item_home_tv_desc
+com.it.mobilesafe.R$id: int item_home_tv_tittle
+com.it.mobilesafe.R$id: int item_process_cb
+com.it.mobilesafe.R$id: int item_process_iv_icon
+com.it.mobilesafe.R$id: int item_process_tv_memory
+com.it.mobilesafe.R$id: int item_process_tv_name
+com.it.mobilesafe.R$id: int item_traffic_iv_icon
+com.it.mobilesafe.R$id: int item_traffic_tv_name
+com.it.mobilesafe.R$id: int item_traffic_tv_rcv
+com.it.mobilesafe.R$id: int item_traffic_tv_snd
+com.it.mobilesafe.R$id: int item_tv_appname
+com.it.mobilesafe.R$id: int item_virus_iv_clear
+com.it.mobilesafe.R$id: int item_virus_iv_icon
+com.it.mobilesafe.R$id: int item_virus_tv_isVirus
+com.it.mobilesafe.R$id: int item_virus_tv_name
+com.it.mobilesafe.R$id: int ls_et_pwd
+com.it.mobilesafe.R$id: int ls_iv_icon
+com.it.mobilesafe.R$id: int ls_tv_name
+com.it.mobilesafe.R$id: int m_iv_logo
+com.it.mobilesafe.R$id: int m_iv_setting
+com.it.mobilesafe.R$id: int m_tv_tittle
+com.it.mobilesafe.R$id: int middle
+com.it.mobilesafe.R$id: int naq_btn_query
+com.it.mobilesafe.R$id: int naq_et_number
+com.it.mobilesafe.R$id: int naq_tv_address
+com.it.mobilesafe.R$id: int pl_loading
+com.it.mobilesafe.R$id: int pm_autoclean
+com.it.mobilesafe.R$id: int pm_draw_content
+com.it.mobilesafe.R$id: int pm_draw_handler
+com.it.mobilesafe.R$id: int pm_draw_sd
+com.it.mobilesafe.R$id: int pm_iv_arrow1
+com.it.mobilesafe.R$id: int pm_iv_arrow2
+com.it.mobilesafe.R$id: int pm_listview
+com.it.mobilesafe.R$id: int pm_pdv_memory
+com.it.mobilesafe.R$id: int pm_pdv_process
+com.it.mobilesafe.R$id: int pm_show_process
+com.it.mobilesafe.R$id: int pp_ll_info
+com.it.mobilesafe.R$id: int pp_ll_open
+com.it.mobilesafe.R$id: int pp_ll_share
+com.it.mobilesafe.R$id: int pp_ll_uninstall
+com.it.mobilesafe.R$id: int process_count
+com.it.mobilesafe.R$id: int process_memory
+com.it.mobilesafe.R$id: int progress_left
+com.it.mobilesafe.R$id: int progress_pb
+com.it.mobilesafe.R$id: int progress_right
+com.it.mobilesafe.R$id: int progress_title
+com.it.mobilesafe.R$id: int setting_callsms_infest
+com.it.mobilesafe.R$id: int setting_siv_address
+com.it.mobilesafe.R$id: int setting_siv_style
+com.it.mobilesafe.R$id: int setting_siv_update
+com.it.mobilesafe.R$id: int setup1_iv
+com.it.mobilesafe.R$id: int setup2_iv
+com.it.mobilesafe.R$id: int setup2_tv_bind
+com.it.mobilesafe.R$id: int setup3_et_safePwd
+com.it.mobilesafe.R$id: int setup4_iv
+com.it.mobilesafe.R$id: int setup4_rl_activate
+com.it.mobilesafe.R$id: int setup5_cb
+com.it.mobilesafe.R$id: int setup_iv_protecting
+com.it.mobilesafe.R$id: int setup_rl_again
+com.it.mobilesafe.R$id: int setup_rl_protecting
+com.it.mobilesafe.R$id: int setup_tv_number
+com.it.mobilesafe.R$id: int splash_tv_version
+com.it.mobilesafe.R$id: int view_iv_toggle
+com.it.mobilesafe.R$id: int view_tv_left
+com.it.mobilesafe.R$id: int view_tv_right
+com.it.mobilesafe.R$id: int view_tv_title
+com.it.mobilesafe.R$interpolator: int accelerate_cubic
+com.it.mobilesafe.R$interpolator: int accelerate_quint
+com.it.mobilesafe.R$interpolator: int anticipate
+com.it.mobilesafe.R$interpolator: int decelerate_cubic
+com.it.mobilesafe.R$interpolator: int decelerate_quint
+com.it.mobilesafe.R$interpolator: int overshoot
+com.it.mobilesafe.R$layout: int acticity_guide_setup
+com.it.mobilesafe.R$layout: int acticity_guide_setup1
+com.it.mobilesafe.R$layout: int acticity_guide_setup2
+com.it.mobilesafe.R$layout: int acticity_guide_setup3
+com.it.mobilesafe.R$layout: int acticity_guide_setup4
+com.it.mobilesafe.R$layout: int acticity_guide_setup5
+com.it.mobilesafe.R$layout: int activity_antivirus
+com.it.mobilesafe.R$layout: int activity_app_lock
+com.it.mobilesafe.R$layout: int activity_app_manager
+com.it.mobilesafe.R$layout: int activity_blicklist
+com.it.mobilesafe.R$layout: int activity_callsms
+com.it.mobilesafe.R$layout: int activity_clear_cache
+com.it.mobilesafe.R$layout: int activity_common_number
+com.it.mobilesafe.R$layout: int activity_common_tool
+com.it.mobilesafe.R$layout: int activity_contact_selected
+com.it.mobilesafe.R$layout: int activity_home
+com.it.mobilesafe.R$layout: int activity_lock_screen
+com.it.mobilesafe.R$layout: int activity_number_address_query
+com.it.mobilesafe.R$layout: int activity_process_manager
+com.it.mobilesafe.R$layout: int activity_setting
+com.it.mobilesafe.R$layout: int activity_splash
+com.it.mobilesafe.R$layout: int activity_traffic
+com.it.mobilesafe.R$layout: int address_dialog
+com.it.mobilesafe.R$layout: int address_toast
+com.it.mobilesafe.R$layout: int device_admin_sample
+com.it.mobilesafe.R$layout: int dialog_pwd_enter
+com.it.mobilesafe.R$layout: int dialog_pwd_init
+com.it.mobilesafe.R$layout: int item_address
+com.it.mobilesafe.R$layout: int item_app_info
+com.it.mobilesafe.R$layout: int item_app_lock
+com.it.mobilesafe.R$layout: int item_cache_info
+com.it.mobilesafe.R$layout: int item_callsms
+com.it.mobilesafe.R$layout: int item_contact
+com.it.mobilesafe.R$layout: int item_home
+com.it.mobilesafe.R$layout: int item_process
+com.it.mobilesafe.R$layout: int item_traffic_info
+com.it.mobilesafe.R$layout: int item_virus_info
+com.it.mobilesafe.R$layout: int nofitication_protected
+com.it.mobilesafe.R$layout: int popup_item_app
+com.it.mobilesafe.R$layout: int process_widget
+com.it.mobilesafe.R$layout: int public_loading
+com.it.mobilesafe.R$layout: int view_progress_des
+com.it.mobilesafe.R$layout: int view_segement
+com.it.mobilesafe.R$layout: int view_setting_item
+com.it.mobilesafe.R$menu: int main
+com.it.mobilesafe.R$raw: int alarm
+com.it.mobilesafe.R$string: int accessibility_service_description
+com.it.mobilesafe.R$string: int action_settings
+com.it.mobilesafe.R$string: int app_name
+com.it.mobilesafe.R$string: int hello_world
+com.it.mobilesafe.R$string: int sample_device_admin
+com.it.mobilesafe.R$string: int sample_device_admin_description
+com.it.mobilesafe.R$style: int AddressAnimation
+com.it.mobilesafe.R$style: int AddressDialogTheme
+com.it.mobilesafe.R$style: int AppBaseTheme
+com.it.mobilesafe.R$style: int AppTheme
+com.it.mobilesafe.R$style: int GuideBtnNextStyle
+com.it.mobilesafe.R$style: int GuideBtnPreStyle
+com.it.mobilesafe.R$style: int GuideTextViewStyle
+com.it.mobilesafe.R$style: int GuideTitleBarStyle
+com.it.mobilesafe.R$style: int PopupAnimation
+com.it.mobilesafe.R$style: int SetupTextViewStyle
+com.it.mobilesafe.R$style: int TitleBarStyle
+com.it.mobilesafe.R$style: int normalTextViewStyle
+com.it.mobilesafe.R$style: int normalTextViewStyle2
+com.it.mobilesafe.R$style: int widget_text
+com.it.mobilesafe.R$styleable: int[] ArcProgress
+com.it.mobilesafe.R$styleable: int ArcProgress_arc_angle
+com.it.mobilesafe.R$styleable: int ArcProgress_arc_bottom_text
+com.it.mobilesafe.R$styleable: int ArcProgress_arc_bottom_text_size
+com.it.mobilesafe.R$styleable: int ArcProgress_arc_finished_color
+com.it.mobilesafe.R$styleable: int ArcProgress_arc_max
+com.it.mobilesafe.R$styleable: int ArcProgress_arc_progress
+com.it.mobilesafe.R$styleable: int ArcProgress_arc_stroke_width
+com.it.mobilesafe.R$styleable: int ArcProgress_arc_suffix_text
+com.it.mobilesafe.R$styleable: int ArcProgress_arc_suffix_text_padding
+com.it.mobilesafe.R$styleable: int ArcProgress_arc_suffix_text_size
+com.it.mobilesafe.R$styleable: int ArcProgress_arc_text_color
+com.it.mobilesafe.R$styleable: int ArcProgress_arc_text_size
+com.it.mobilesafe.R$styleable: int ArcProgress_arc_unfinished_color
+com.it.mobilesafe.R$styleable: int[] CircleProgress
+com.it.mobilesafe.R$styleable: int CircleProgress_circle_finished_color
+com.it.mobilesafe.R$styleable: int CircleProgress_circle_max
+com.it.mobilesafe.R$styleable: int CircleProgress_circle_prefix_text
+com.it.mobilesafe.R$styleable: int CircleProgress_circle_progress
+com.it.mobilesafe.R$styleable: int CircleProgress_circle_suffix_text
+com.it.mobilesafe.R$styleable: int CircleProgress_circle_text_color
+com.it.mobilesafe.R$styleable: int CircleProgress_circle_text_size
+com.it.mobilesafe.R$styleable: int CircleProgress_circle_unfinished_color
+com.it.mobilesafe.R$styleable: int[] DonutProgress
+com.it.mobilesafe.R$styleable: int DonutProgress_donut_background_color
+com.it.mobilesafe.R$styleable: int DonutProgress_donut_circle_starting_degree
+com.it.mobilesafe.R$styleable: int DonutProgress_donut_finished_color
+com.it.mobilesafe.R$styleable: int DonutProgress_donut_finished_stroke_width
+com.it.mobilesafe.R$styleable: int DonutProgress_donut_inner_bottom_text
+com.it.mobilesafe.R$styleable: int DonutProgress_donut_inner_bottom_text_color
+com.it.mobilesafe.R$styleable: int DonutProgress_donut_inner_bottom_text_size
+com.it.mobilesafe.R$styleable: int DonutProgress_donut_max
+com.it.mobilesafe.R$styleable: int DonutProgress_donut_prefix_text
+com.it.mobilesafe.R$styleable: int DonutProgress_donut_progress
+com.it.mobilesafe.R$styleable: int DonutProgress_donut_suffix_text
+com.it.mobilesafe.R$styleable: int DonutProgress_donut_text
+com.it.mobilesafe.R$styleable: int DonutProgress_donut_text_color
+com.it.mobilesafe.R$styleable: int DonutProgress_donut_text_size
+com.it.mobilesafe.R$styleable: int DonutProgress_donut_unfinished_color
+com.it.mobilesafe.R$styleable: int DonutProgress_donut_unfinished_stroke_width
+com.it.mobilesafe.R$styleable: int[] SettingItemView
+com.it.mobilesafe.R$styleable: int SettingItemView_itbackground
+com.it.mobilesafe.R$styleable: int SettingItemView_title
+com.it.mobilesafe.R$styleable: int SettingItemView_toggleEnable
+com.it.mobilesafe.R$styleable: int[] StickyListHeadersListView
+com.it.mobilesafe.R$styleable: int StickyListHeadersListView_android_cacheColorHint
+com.it.mobilesafe.R$styleable: int StickyListHeadersListView_android_choiceMode
+com.it.mobilesafe.R$styleable: int StickyListHeadersListView_android_clipToPadding
+com.it.mobilesafe.R$styleable: int StickyListHeadersListView_android_divider
+com.it.mobilesafe.R$styleable: int StickyListHeadersListView_android_dividerHeight
+com.it.mobilesafe.R$styleable: int StickyListHeadersListView_android_drawSelectorOnTop
+com.it.mobilesafe.R$styleable: int StickyListHeadersListView_android_fadingEdgeLength
+com.it.mobilesafe.R$styleable: int StickyListHeadersListView_android_fastScrollAlwaysVisible
+com.it.mobilesafe.R$styleable: int StickyListHeadersListView_android_fastScrollEnabled
+com.it.mobilesafe.R$styleable: int StickyListHeadersListView_android_listSelector
+com.it.mobilesafe.R$styleable: int StickyListHeadersListView_android_overScrollMode
+com.it.mobilesafe.R$styleable: int StickyListHeadersListView_android_padding
+com.it.mobilesafe.R$styleable: int StickyListHeadersListView_android_paddingBottom
+com.it.mobilesafe.R$styleable: int StickyListHeadersListView_android_paddingLeft
+com.it.mobilesafe.R$styleable: int StickyListHeadersListView_android_paddingRight
+com.it.mobilesafe.R$styleable: int StickyListHeadersListView_android_paddingTop
+com.it.mobilesafe.R$styleable: int StickyListHeadersListView_android_requiresFadingEdge
+com.it.mobilesafe.R$styleable: int StickyListHeadersListView_android_scrollbarStyle
+com.it.mobilesafe.R$styleable: int StickyListHeadersListView_android_scrollbars
+com.it.mobilesafe.R$styleable: int StickyListHeadersListView_android_scrollingCache
+com.it.mobilesafe.R$styleable: int StickyListHeadersListView_android_stackFromBottom
+com.it.mobilesafe.R$styleable: int StickyListHeadersListView_android_transcriptMode
+com.it.mobilesafe.R$styleable: int StickyListHeadersListView_hasStickyHeaders
+com.it.mobilesafe.R$styleable: int StickyListHeadersListView_isDrawingListUnderStickyHeader
+com.it.mobilesafe.R$styleable: int StickyListHeadersListView_stickyListHeadersListViewStyle
+com.it.mobilesafe.R$styleable: int[] Themes
+com.it.mobilesafe.R$styleable: int Themes_arcProgressStyle
+com.it.mobilesafe.R$styleable: int Themes_circleProgressStyle
+com.it.mobilesafe.R$styleable: int Themes_donutProgressStyle
+com.it.mobilesafe.R$xml: int accessibility_service_config
+com.it.mobilesafe.R$xml: int device_admin_sample
+com.it.mobilesafe.R$xml: int process_widget_provider
+com.it.mobilesafe.activity.AntiVirusActivity
+com.it.mobilesafe.activity.AntiVirusActivity: AntiVirusActivity()
+com.it.mobilesafe.activity.AntiVirusActivity: void onClick(android.view.View)
+com.it.mobilesafe.activity.AppLockActivity
+com.it.mobilesafe.activity.AppLockActivity: AppLockActivity()
+com.it.mobilesafe.activity.AppManagerActivity
+com.it.mobilesafe.activity.AppManagerActivity: AppManagerActivity()
+com.it.mobilesafe.activity.BaseSetupActivity: BaseSetupActivity()
+com.it.mobilesafe.activity.BaseSetupActivity: void performNext(android.view.View)
+com.it.mobilesafe.activity.BaseSetupActivity: void performPre(android.view.View)
+com.it.mobilesafe.activity.BlacklistActivity
+com.it.mobilesafe.activity.BlacklistActivity: BlacklistActivity()
+com.it.mobilesafe.activity.BlacklistActivity: void onClick(android.view.View)
+com.it.mobilesafe.activity.CallSmsActivity
+com.it.mobilesafe.activity.CallSmsActivity: CallSmsActivity()
+com.it.mobilesafe.activity.ClearCacheActivity
+com.it.mobilesafe.activity.ClearCacheActivity: ClearCacheActivity()
+com.it.mobilesafe.activity.ClearCacheActivity: void quickScan(android.view.View)
+com.it.mobilesafe.activity.ClearCacheActivity: void onClick(android.view.View)
+com.it.mobilesafe.activity.CommonNumberActivity
+com.it.mobilesafe.activity.CommonNumberActivity: CommonNumberActivity()
+com.it.mobilesafe.activity.CommonToolActivity
+com.it.mobilesafe.activity.CommonToolActivity: CommonToolActivity()
+com.it.mobilesafe.activity.CommonToolActivity: void clickApplock(android.view.View)
+com.it.mobilesafe.activity.ContactsActivity
+com.it.mobilesafe.activity.ContactsActivity: ContactsActivity()
+com.it.mobilesafe.activity.ContactsActivity2
+com.it.mobilesafe.activity.ContactsActivity2: ContactsActivity2()
+com.it.mobilesafe.activity.GuideSetup1Activity
+com.it.mobilesafe.activity.GuideSetup1Activity: GuideSetup1Activity()
+com.it.mobilesafe.activity.GuideSetup2Activity
+com.it.mobilesafe.activity.GuideSetup2Activity: GuideSetup2Activity()
+com.it.mobilesafe.activity.GuideSetup3Activity
+com.it.mobilesafe.activity.GuideSetup3Activity: GuideSetup3Activity()
+com.it.mobilesafe.activity.GuideSetup3Activity: void clickContacts(android.view.View)
+com.it.mobilesafe.activity.GuideSetup4Activity
+com.it.mobilesafe.activity.GuideSetup4Activity: GuideSetup4Activity()
+com.it.mobilesafe.activity.GuideSetup5Activity
+com.it.mobilesafe.activity.GuideSetup5Activity: GuideSetup5Activity()
+com.it.mobilesafe.activity.GuildeSetupActivity
+com.it.mobilesafe.activity.GuildeSetupActivity: GuildeSetupActivity()
+com.it.mobilesafe.activity.HomeActivity
+com.it.mobilesafe.activity.HomeActivity: HomeActivity()
+com.it.mobilesafe.activity.HomeActivity: void clickSetting(android.view.View)
+com.it.mobilesafe.activity.LockScreenActivity
+com.it.mobilesafe.activity.LockScreenActivity: LockScreenActivity()
+com.it.mobilesafe.activity.LockScreenActivity: void clickOk(android.view.View)
+com.it.mobilesafe.activity.NumberAddressQueryActivity
+com.it.mobilesafe.activity.NumberAddressQueryActivity: NumberAddressQueryActivity()
+com.it.mobilesafe.activity.ProcessManagerActivity
+com.it.mobilesafe.activity.ProcessManagerActivity: ProcessManagerActivity()
+com.it.mobilesafe.activity.ProcessManagerActivity: void clickAll(android.view.View)
+com.it.mobilesafe.activity.ProcessManagerActivity: void clickReverse(android.view.View)
+com.it.mobilesafe.activity.ProcessManagerActivity: void clickClean(android.view.View)
+com.it.mobilesafe.activity.SettingActivity
+com.it.mobilesafe.activity.SettingActivity: SettingActivity()
+com.it.mobilesafe.activity.SplashActivity
+com.it.mobilesafe.activity.SplashActivity: SplashActivity()
+com.it.mobilesafe.activity.TrafficActivity
+com.it.mobilesafe.activity.TrafficActivity: TrafficActivity()
+com.it.mobilesafe.receiver.BootcompleteReceiver
+com.it.mobilesafe.receiver.BootcompleteReceiver: BootcompleteReceiver()
+com.it.mobilesafe.receiver.MyReceiver
+com.it.mobilesafe.receiver.MyReceiver: MyReceiver()
+com.it.mobilesafe.receiver.ProcessWidget
+com.it.mobilesafe.receiver.ProcessWidget: ProcessWidget()
+com.it.mobilesafe.receiver.SafeAdminReceiver
+com.it.mobilesafe.receiver.SafeAdminReceiver: SafeAdminReceiver()
+com.it.mobilesafe.receiver.SmsListenerReceiver
+com.it.mobilesafe.receiver.SmsListenerReceiver: SmsListenerReceiver()
+com.it.mobilesafe.service.AutoCleanService
+com.it.mobilesafe.service.AutoCleanService: AutoCleanService()
+com.it.mobilesafe.service.CallSmsService
+com.it.mobilesafe.service.CallSmsService: CallSmsService()
+com.it.mobilesafe.service.GpsService
+com.it.mobilesafe.service.GpsService: GpsService()
+com.it.mobilesafe.service.NumberAddressService
+com.it.mobilesafe.service.NumberAddressService: NumberAddressService()
+com.it.mobilesafe.service.ProtectedService
+com.it.mobilesafe.service.ProtectedService: ProtectedService()
+com.it.mobilesafe.service.UpdateWidgetService
+com.it.mobilesafe.service.UpdateWidgetService: UpdateWidgetService()
+com.it.mobilesafe.service.WatchDogService
+com.it.mobilesafe.service.WatchDogService: WatchDogService()
+com.it.mobilesafe.service.WatchDogService2
+com.it.mobilesafe.service.WatchDogService2: WatchDogService2()
+com.it.mobilesafe.view.FocusTextView
+com.it.mobilesafe.view.FocusTextView: FocusTextView(android.content.Context)
+com.it.mobilesafe.view.FocusTextView: FocusTextView(android.content.Context,android.util.AttributeSet)
+com.it.mobilesafe.view.ProgressDesView
+com.it.mobilesafe.view.ProgressDesView: ProgressDesView(android.content.Context)
+com.it.mobilesafe.view.ProgressDesView: ProgressDesView(android.content.Context,android.util.AttributeSet)
+com.it.mobilesafe.view.ProgressDesView: void setDesTitle(java.lang.String)
+com.it.mobilesafe.view.ProgressDesView: void setDesLeft(java.lang.String)
+com.it.mobilesafe.view.ProgressDesView: void setDesRight(java.lang.String)
+com.it.mobilesafe.view.ProgressDesView: void setDesProgress(int)
+com.it.mobilesafe.view.SegementControlView
+com.it.mobilesafe.view.SegementControlView: SegementControlView(android.content.Context)
+com.it.mobilesafe.view.SegementControlView: SegementControlView(android.content.Context,android.util.AttributeSet)
+com.it.mobilesafe.view.SegementControlView: void setOnSelecedListener(com.it.mobilesafe.view.SegementControlView$OnSelecedListener)
+com.it.mobilesafe.view.SettingItemView
+com.it.mobilesafe.view.SettingItemView: SettingItemView(android.content.Context)
+com.it.mobilesafe.view.SettingItemView: SettingItemView(android.content.Context,android.util.AttributeSet)
+com.it.mobilesafe.view.SettingItemView: void setToggleOn(boolean)
+com.lidroid.xutils.bitmap.callback.BitmapLoadFrom: com.lidroid.xutils.bitmap.callback.BitmapLoadFrom[] values()
+com.lidroid.xutils.bitmap.callback.BitmapLoadFrom: com.lidroid.xutils.bitmap.callback.BitmapLoadFrom valueOf(java.lang.String)
+com.lidroid.xutils.db.sqlite.ColumnDbType: com.lidroid.xutils.db.sqlite.ColumnDbType[] values()
+com.lidroid.xutils.db.sqlite.ColumnDbType: com.lidroid.xutils.db.sqlite.ColumnDbType valueOf(java.lang.String)
+com.lidroid.xutils.http.HttpHandler$State: com.lidroid.xutils.http.HttpHandler$State[] values()
+com.lidroid.xutils.http.HttpHandler$State: com.lidroid.xutils.http.HttpHandler$State valueOf(java.lang.String)
+com.lidroid.xutils.http.client.HttpRequest$HttpMethod: com.lidroid.xutils.http.client.HttpRequest$HttpMethod[] values()
+com.lidroid.xutils.http.client.HttpRequest$HttpMethod: com.lidroid.xutils.http.client.HttpRequest$HttpMethod valueOf(java.lang.String)
+com.lidroid.xutils.http.client.multipart.HttpMultipartMode: com.lidroid.xutils.http.client.multipart.HttpMultipartMode[] values()
+com.lidroid.xutils.http.client.multipart.HttpMultipartMode: com.lidroid.xutils.http.client.multipart.HttpMultipartMode valueOf(java.lang.String)
+com.lidroid.xutils.task.Priority: com.lidroid.xutils.task.Priority[] values()
+com.lidroid.xutils.task.Priority: com.lidroid.xutils.task.Priority valueOf(java.lang.String)
+com.lidroid.xutils.view.ResType: com.lidroid.xutils.view.ResType[] values()
+com.lidroid.xutils.view.ResType: com.lidroid.xutils.view.ResType valueOf(java.lang.String)
+se.emilsjolander.stickylistheaders.ExpandableStickyListHeadersListView: se.emilsjolander.stickylistheaders.ExpandableStickyListHeadersAdapter getAdapter()
+se.emilsjolander.stickylistheaders.ExpandableStickyListHeadersListView: void setAdapter(se.emilsjolander.stickylistheaders.StickyListHeadersAdapter)
+se.emilsjolander.stickylistheaders.ExpandableStickyListHeadersListView: void setAnimExecutor(se.emilsjolander.stickylistheaders.ExpandableStickyListHeadersListView$IAnimationExecutor)
+se.emilsjolander.stickylistheaders.ExpandableStickyListHeadersListView: se.emilsjolander.stickylistheaders.StickyListHeadersAdapter getAdapter()
+se.emilsjolander.stickylistheaders.R$attr: int isDrawingListUnderStickyHeader
+se.emilsjolander.stickylistheaders.R$attr: int hasStickyHeaders
+se.emilsjolander.stickylistheaders.R$attr: int stickyListHeadersListViewStyle
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_paddingBottom
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_fastScrollAlwaysVisible
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_paddingRight
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_fastScrollEnabled
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_drawSelectorOnTop
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_listSelector
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_requiresFadingEdge
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_padding
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_fadingEdgeLength
+se.emilsjolander.stickylistheaders.R$styleable: int[] StickyListHeadersListView
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_stickyListHeadersListViewStyle
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_choiceMode
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_hasStickyHeaders
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_scrollbars
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_transcriptMode
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_cacheColorHint
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_isDrawingListUnderStickyHeader
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_stackFromBottom
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_scrollingCache
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_paddingTop
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_divider
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_scrollbarStyle
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_dividerHeight
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_paddingLeft
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_overScrollMode
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_clipToPadding
+se.emilsjolander.stickylistheaders.StickyListHeadersListView
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: StickyListHeadersListView(android.content.Context)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: StickyListHeadersListView(android.content.Context,android.util.AttributeSet)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: StickyListHeadersListView(android.content.Context,android.util.AttributeSet,int)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setHeaderOffet(int)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setAreHeadersSticky(boolean)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: boolean getAreHeadersSticky()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setStickyHeaderTopOffset(int)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getStickyHeaderTopOffset()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setDrawingListUnderStickyHeader(boolean)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setOnHeaderClickListener(se.emilsjolander.stickylistheaders.StickyListHeadersListView$OnHeaderClickListener)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setOnStickyHeaderOffsetChangedListener(se.emilsjolander.stickylistheaders.StickyListHeadersListView$OnStickyHeaderOffsetChangedListener)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setOnStickyHeaderChangedListener(se.emilsjolander.stickylistheaders.StickyListHeadersListView$OnStickyHeaderChangedListener)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getListChildCount()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: android.widget.ListView getWrappedList()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setAdapter(se.emilsjolander.stickylistheaders.StickyListHeadersAdapter)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: se.emilsjolander.stickylistheaders.StickyListHeadersAdapter getAdapter()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setDivider(android.graphics.drawable.Drawable)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setDividerHeight(int)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: android.graphics.drawable.Drawable getDivider()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getDividerHeight()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setOnScrollListener(android.widget.AbsListView$OnScrollListener)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setOnTouchListener(android.view.View$OnTouchListener)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setOnItemClickListener(android.widget.AdapterView$OnItemClickListener)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setOnItemLongClickListener(android.widget.AdapterView$OnItemLongClickListener)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getHeaderViewsCount()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getFooterViewsCount()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setEmptyView(android.view.View)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: android.view.View getEmptyView()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setVerticalScrollBarEnabled(boolean)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setHorizontalScrollBarEnabled(boolean)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getOverScrollMode()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setOverScrollMode(int)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setSelection(int)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setSelector(android.graphics.drawable.Drawable)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setSelector(int)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getFirstVisiblePosition()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getLastVisiblePosition()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setChoiceMode(int)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getCheckedItemCount()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: long[] getCheckedItemIds()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getCheckedItemPosition()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: android.util.SparseBooleanArray getCheckedItemPositions()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getCount()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setOnCreateContextMenuListener(android.view.View$OnCreateContextMenuListener)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setClipToPadding(boolean)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getPaddingLeft()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getPaddingTop()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getPaddingRight()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getPaddingBottom()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setFastScrollEnabled(boolean)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setFastScrollAlwaysVisible(boolean)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setScrollBarStyle(int)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getScrollBarStyle()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setMultiChoiceModeListener(android.widget.AbsListView$MultiChoiceModeListener)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setTranscriptMode(int)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setBlockLayoutChildren(boolean)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setStackFromBottom(boolean)
+se.emilsjolander.stickylistheaders.WrapperView: android.view.View getItem()
+se.emilsjolander.stickylistheaders.WrapperView: android.view.View getHeader()

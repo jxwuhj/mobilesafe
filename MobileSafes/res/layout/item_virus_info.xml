@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dip" >
+
+    <ImageView
+        android:id="@+id/item_virus_iv_icon"
+        android:layout_width="36dip"
+        android:layout_height="36dip"
+        android:layout_centerVertical="true"
+        android:scaleType="center"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="6dip"
+        android:layout_toRightOf="@id/item_virus_iv_icon"
+        android:orientation="vertical"
+        android:padding="3dp" >
+
+        <TextView
+            android:id="@+id/item_virus_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="应用程序的名称"
+            android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/item_virus_tv_isVirus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@android:color/holo_blue_bright"
+                android:text="安全"
+                android:textSize="15sp" />
+
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/item_virus_iv_clear"
+        android:layout_width="36dip"
+        android:layout_alignParentRight="true"
+        android:layout_height="36dip"
+        android:layout_centerVertical="true"
+        android:scaleType="center"
+        android:src="@drawable/clean_process_selector"
+         />
+
+</RelativeLayout>
